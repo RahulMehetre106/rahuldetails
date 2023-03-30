@@ -61,7 +61,7 @@ margin-right: 10px;
     flex-direction: row;
     justify-content: center;
     position: relative;
-   margin-left: 40vh;
+   margin:auto;
    }
    .information{
     width: 50vh;
@@ -346,7 +346,7 @@ margin-left: 20vh;
  .icon {
     float: right;
     display: block;
-    position: fixed;
+    position:relative;
   }
   /* navbar end */
   .skill-card p{
