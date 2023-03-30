@@ -1,0 +1,452 @@
+
+body{
+               
+    background-color: rgb(168, 163, 157);
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.navbar{
+    /* display: flex; */
+    height: 6vh;
+    background-color: rgba(218, 205, 189, 0.916);
+}
+.logo img{
+height: 42px;
+margin-left: 8px;
+margin-right: 5px;
+}
+.logo{
+float: left;
+}
+.name p{
+margin: 0px;
+font-family: Arial, Helvetica, sans-serif;
+text-transform: uppercase;
+font-weight: bold;
+float: left;
+}
+/* navbar */
+.nav-link{
+float:right;
+overflow: hidden;
+margin-right: 10vh;
+}
+.nav-link ul li a{
+   display: inline-block;
+   text-decoration: none;
+   margin-left: 40px;
+   margin-right: 10px;
+}
+.nav-link ul li{
+display:inline-block
+}
+.nav-link ul li a{
+text-decoration: none;
+margin-left: 40px;
+margin-right: 10px;
+}
+.icon {
+   float: right;
+   right: 0;
+   top: 0;
+   display: none;
+ }
+/* navbar end */
+.container{
+    width: 110vh;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+   margin-left: 40vh;
+   }
+   .information{
+    width: 50vh;
+  height: 70vh;
+   }
+   .photo{
+    width: 55vh;
+    height: 70vh;  
+   }
+   .photo img{
+      width: 55vh;
+    height: 70vh;
+   }
+.hire{
+    height: 5vh;
+    width: 12vh;
+    margin-left: 2vh;
+    border-radius: 5px;
+    border: none;
+    background-color: coral;
+    font-weight: bolder;
+}
+.project-btn{
+    height: 5vh;
+    width: 12vh;
+    margin-left: 2vh;
+    border: none;
+    background-color: coral;
+    border-radius: 6px;
+    font-weight:bolder;
+}
+.info-con{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 10vh;
+font-weight: normal;
+margin-bottom: 0%;
+}
+.abc{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 10px;
+margin-left: 8px;
+font-style: italic;
+}
+.lan{
+margin-left: 5vh;
+}
+.lan-btn{
+    height: 6vh;
+    width: 14vh;
+    margin-left: 2vh;
+    margin-top: 2vh;
+    border: none;
+    background-color: rgb(31, 30, 30);
+    border-radius: 19px;
+    font-weight:bolder;
+    color:white;
+}
+
+/* container end */
+
+.card{
+    height: 50vh;
+    width: 60vh;
+    overflow: hidden;
+    background-color: black;
+    color: aliceblue;
+     margin: auto;
+    margin-top: 5vh;
+    border-radius: 19px;
+    margin-bottom: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    display: flex;
+   }
+   .card-header{
+      position: absolute;
+      margin-left: 24px;  
+      margin-top: 50px;
+    align-self:last baseline;
+    }
+   .card-header h2{
+      margin-left: 10vh;
+      font-size: 30px;
+      color: rgb(210, 30, 54);
+      text-shadow: 0px 3px 8px rgb(0, 1, 4);
+   }
+   .card-body{
+    width: 60vh;
+    height: 50vh;
+     }
+   .card-body img{
+    width: 60vh;
+    height: 50vh;
+    margin: auto ;
+   }
+  
+   .main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 5vh;
+    justify-content: center;
+   }
+
+   footer{
+    background-color: rgba(0, 0, 0, 0.595);
+    color: white;
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+ }
+ .foot-info{
+    display: flex;
+    flex-wrap: wrap;
+     height: 70vh;
+    width: 80vw;
+    margin: auto;
+ }
+ .send-mail{
+    display: inline-block;
+  height: 50vh;
+    margin-top: 10vh;
+    margin-left: 8vh;
+    
+ }
+ .send-mail h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0%;
+    }
+ .name-input{
+    width: 35vh;
+    height: 30px;
+    margin: 10px 10px 10px 10px;
+ }
+ .email-input{
+    width: 35vh;
+    height: 30px;
+    margin: 10px 10px 10px 10px;
+ }
+ .msg-input{
+    width: 74vh;
+    height: 15vh;
+    margin: 10px 10px 10px 10px;
+ }
+ .send-mail-btn{
+   /* overflow: hidden; */
+    width: 74vh;
+    height: 5vh;
+    margin: 10px 10px 10px 10px;
+    border-radius: 18px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+ }
+ .contact-us{
+    background-color: black;
+    color:  rgba(218, 205, 189, 0.916);
+
+    display: inline-block;
+    width: 60vh;
+    height: 50vh;
+    margin-top: 10vh;
+
+    margin-left: 5vh;
+    /* margin-top: 0%; */
+    line-height: 4vh;
+    /* display: flex; */
+ }
+ .info1{
+    margin-top: 35px;
+    margin-left: 35px;
+ }
+ .comm{
+   margin-top: 50vh;
+   display:flex;
+   margin-top: 4vh;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.about-main{
+   width: 60vh;
+   height: 50vh;
+   box-shadow: 10px 10px 10px 8px;
+}
+.about-main img {
+   width: 60vh;
+   height: 50vh;
+}
+.blue{
+   width: 60vh;
+   height: 50vh;
+   background-color: rgb(217, 196, 196);
+   box-shadow: 10px 10px 10px 8px;
+}
+.blue-info {
+   margin-left: 25px;
+
+}
+.blue-info  h3{
+   text-align: center;
+   color: blue;
+}
+.blue-info h1{
+   color: brown;
+}
+.resume-btn{
+   height: 6vh;
+width: 16vh;
+margin-left: 2vh;
+margin-top: 2vh;
+border: solid;
+background-color: white;
+font-weight:bolder;
+color:rgb(162, 0, 255);
+text-align: center;
+margin: auto;
+margin-left: 20vh;
+}
+
+.container12 {
+   display: flex;
+   width: 120vh;
+   background-color: #ddd;
+   margin: auto;
+ }
+ .skill-card p{
+   margin-left: 36vh; 
+ }
+ .skills12 {
+   /* height: 2vh; */
+   text-align: right;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   color: white;
+ }
+
+
+ .skills p{
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 40px;
+   font-style: italic;
+   font-weight: bolder;
+   font-weight: bolder;
+   color: rgb(75, 25, 16);
+   text-shadow: 4px 4px 0px rgba(0,0,0,0.39);
+}
+.abc1{
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 40px;
+   font-style: italic;
+   font-weight: bolder;
+   font-weight: bolder;
+   margin-top: 10vh;
+   color: rgb(75, 25, 16);
+   text-shadow: 4px 4px 0px rgba(0,0,0,0.39);
+}
+
+.skill-card{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+ 
+ .html {width: 90%; background-color: #04AA6D;}
+ .css {width: 80%; background-color: #2196F3;}
+ .js {width: 65%; background-color: #f44336;}
+ .php {width: 60%; background-color: #808080;}
+ .Cpp{width: 80%; background-color: aqua;}
+.C{width: 80%; background-color: yellow;}
+@media only screen and (max-width: 900px) {
+   
+   .mySlides {display:none;}
+
+  /* navbar */
+  .nav-link ul li a{
+   display: none;
+  }
+ .icon {
+    float: right;
+    display: block;
+    position: fixed;
+  }
+  /* navbar end */
+  .skill-card p{
+   margin-left: 8vh;
+ }
+ .photo{
+   position: relative;
+ }
+ .photo img{
+   height: 50vh;
+   width: 45vh;
+ }
+.container12 {
+   display: flex;
+   width: 45vh;
+   background-color: #ddd;
+   margin: auto;
+ }
+
+.container{
+   flex-direction: column;
+}
+  /* container end */ 
+  .comm{
+   display: block;
+   position: relative;
+   margin-top: 30vh;
+   margin-left: 5vh;
+  }
+.about-main{
+   width: 40vh;
+   height: 40vh;
+  }
+.about-main img {
+   width: 40vh;
+   height: 40vh;
+}
+.blue{
+   width: 40vh;
+   height: 50vh;
+   background-color: rgb(217, 196, 196);
+   box-shadow: 10px 10px 10px 8px;
+}
+}
+
+
+
+ @media screen and (max-width: 900px) {
+   .nav-link.responsive {position: relative;
+   }
+   .nav-link.responsive ul li .icon {
+     position: fixed;
+     right: 0;
+     top: 0;
+   }
+   .icon{
+      position:relative;
+      line-height: 4vh;
+   }
+   .nav-link{
+      background-color: rgba(218, 205, 189, 0.916);
+      margin: auto;
+    }
+   .navbar{
+      height: 10vh;
+   }
+   .nav-link{
+      margin-top: 10px;
+   }
+   .nav-link.responsive ul li a {
+     display: block;
+    
+     line-height: 7vh;
+    margin-left: 25vh;
+   }
+      .send-mail{
+         margin: auto;
+      }
+
+.foot-info{
+   height: 120vh;
+}
+   .send-mail-btn{
+       width: 35vh;
+       height: 5vh;
+       margin: 10px 10px 10px 10px;
+       border-radius: 18px;
+       background-color: black;
+       color: white;
+       font-weight: bolder;
+       font-size: 20px;
+    }
+    .msg-input{
+      width: 35vh;
+      height: 10vh;
+      margin: 10px 10px 10px 10px;
+   }
+   .send-mail h2{
+      text-align: center;
+      font-size: 40px;
+      margin-bottom: 0%;
+   }
+ }
