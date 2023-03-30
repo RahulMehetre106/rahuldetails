@@ -61,7 +61,7 @@ margin-right: 10px;
     flex-direction: row;
     justify-content: center;
     position: relative;
-   margin:auto;
+  
    }
    .information{
     width: 50vh;
@@ -335,7 +335,7 @@ margin-left: 20vh;
  .php {width: 60%; background-color: #808080;}
  .Cpp{width: 80%; background-color: aqua;}
 .C{width: 80%; background-color: yellow;}
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 700vh) {
    
    .mySlides {display:none;}
 
@@ -394,7 +394,7 @@ margin-left: 20vh;
 
 
 
- @media screen and (max-width: 900px) {
+ @media screen and (max-width: 700vh) {
    .nav-link.responsive {position: relative;
    }
    .nav-link.responsive ul li .icon {
