@@ -11,7 +11,7 @@ font-weight: bold;
 }
 .navbar{
 /* display: flex; */
-height: 90vh;
+height: 9   0vh;
 width: 100%;
 /* background-color: rgba(218, 205, 189, 0.916); */
 
@@ -527,7 +527,7 @@ top: 0;
  margin: auto;
 }
 .navbar{
- height: 10vh;
+/*  height: 10vh; */
  width: 100%;
 }
 .nav-link{
