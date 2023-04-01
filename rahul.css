@@ -527,7 +527,7 @@ top: 0;
  margin: auto;
 }
 .navbar{
-/*  height: 10vh; */
+ height: 10vh;
  width: 100%;
 }
 .nav-link{
