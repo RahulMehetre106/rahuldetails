@@ -429,7 +429,7 @@ background-color: #04AA6D;}
 .php {width: 60%;height: 3px; background-color: #808080;}
 .Cpp{width: 80%;height: 3px; background-color: aqua;}
 .C{width: 80%;height: 3px; background-color: yellow;}
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
 
 .mySlides {display:none;}
 .navbar{
@@ -507,7 +507,7 @@ margin-left: 0vh;
 
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
 .nav-link.responsive {position: relative;
 }
 *{
